@@ -124,7 +124,13 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url();
+  justify-content: center;
+}
 
 
 
