@@ -136,11 +136,13 @@ body {
   align-items: center;
   background: url(/assets/Images/infinite-loop-01.jpg) no-repeat center center / cover;
   justify-content: center;
+  backdrop-filter: blur(8px);
 }
 
 .wrapper { 
   min-width: 300px;
   padding: 30px 10%;
+  border-radius: 4px;
   background-color: #fff; 
 }
 
@@ -166,10 +168,23 @@ input {
   width: 100%;
   padding: 5px;
   margin-top: 5px;
+  cursor: pointer;
 }
 
-.email { margin-bottom: 10px; }
+input::placeholder { text-transform: capitalize; }
 
+.email { margin-bottom: 10px; }
+.password { margin-bottom: 25px; }
+
+button {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  text-transform: capitalize;
+}
 
 
 
