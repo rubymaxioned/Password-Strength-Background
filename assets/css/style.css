@@ -102,6 +102,12 @@ li {
 .bold { font-weight: bold; }
 .transition { transition: 1s all ease; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
@@ -128,12 +134,40 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  /* background: url("./assets/Images/infinite-loop-01.jpg") no-repeat center center / cover; */
-  /* background: url(/assets/Images/) no-repeat center center / cover; */
+  background: url(/assets/Images/infinite-loop-01.jpg) no-repeat center center / cover;
   justify-content: center;
 }
 
+.wrapper { 
+  min-width: 300px;
+  padding: 30px 10%;
+  background-color: #fff; 
+}
 
+h1 {
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+p { 
+  margin-bottom: 15px;
+  font-size: 11px;
+  text-align: center;
+}
+
+label { 
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+input { 
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+ }
+ 
 
 
 
