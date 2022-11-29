@@ -1,4 +1,5 @@
 var password = document.querySelector('.password');
+password.maxLength = "15";
 
 password.addEventListener('keyup', function (event) {
     var input = event.target.value;
